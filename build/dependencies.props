@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup Label="SDK Versions">
+    <NetStandardTargetVersion>netstandard2.0</NetStandardTargetVersion>
+    <NetCoreTargetVersion>netcoreapp3.1</NetCoreTargetVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions">
+    <HellangMiddlewareProblemDetails>5.1.1</HellangMiddlewareProblemDetails>
+    <MicrosoftApplicationInsightsAspNetCore>2.13.1</MicrosoftApplicationInsightsAspNetCore>
+    <MicrosoftAspNetCoreMvcNewtonsoftJson>3.1.3</MicrosoftAspNetCoreMvcNewtonsoftJson>
+    <MicrosoftAspNetCoreMvcVersioning>4.1.1</MicrosoftAspNetCoreMvcVersioning>
+    <MicrosoftAspNetCoreResponseCompression>2.2.0</MicrosoftAspNetCoreResponseCompression>
+
+    <MicrosoftEntityFrameworkCore>3.1.3</MicrosoftEntityFrameworkCore>
+    <MicrosoftEntityFrameworkCoreDesign>3.1.3</MicrosoftEntityFrameworkCoreDesign>
+    <MicrosoftEntityFrameworkCoreSqlServer>3.1.3</MicrosoftEntityFrameworkCoreSqlServer>
+  
+    <MicrosoftAspNetCoreSpaServicesExtensions>3.1.3</MicrosoftAspNetCoreSpaServicesExtensions>
+  </PropertyGroup>
+</Project>

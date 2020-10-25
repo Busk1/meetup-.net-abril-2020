@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.161
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetupAbril.Host", "src\MeetupAbril.Host\MeetupAbril.Host.csproj", "{B065DB86-7C5D-4C9B-BC88-AE1230DEE2BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CDEDF8E9-65E5-41E5-8772-0D6ADFD12E86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetupAbril.Web", "src\MeetupAbril.Web\MeetupAbril.Web.csproj", "{27BF79A6-8FF6-42CA-BD9B-C8148D0F9AFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D9F3D036-5614-4489-91CD-476FD6DA4E31}"
+	ProjectSection(SolutionItems) = preProject
+		build\dependencies.props = build\dependencies.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAbril.Db", "src\MeetupAbril.Db\MeetupAbril.Db.csproj", "{821B2C59-0504-4AF3-A05E-5CFFCE20AE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAbril.Api", "src\MeetupAbril.Api\MeetupAbril.Api.csproj", "{8E72D5A9-9070-4227-B45D-FEC018B4750F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B065DB86-7C5D-4C9B-BC88-AE1230DEE2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B065DB86-7C5D-4C9B-BC88-AE1230DEE2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B065DB86-7C5D-4C9B-BC88-AE1230DEE2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B065DB86-7C5D-4C9B-BC88-AE1230DEE2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BF79A6-8FF6-42CA-BD9B-C8148D0F9AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BF79A6-8FF6-42CA-BD9B-C8148D0F9AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BF79A6-8FF6-42CA-BD9B-C8148D0F9AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BF79A6-8FF6-42CA-BD9B-C8148D0F9AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821B2C59-0504-4AF3-A05E-5CFFCE20AE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821B2C59-0504-4AF3-A05E-5CFFCE20AE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821B2C59-0504-4AF3-A05E-5CFFCE20AE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821B2C59-0504-4AF3-A05E-5CFFCE20AE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E72D5A9-9070-4227-B45D-FEC018B4750F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E72D5A9-9070-4227-B45D-FEC018B4750F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E72D5A9-9070-4227-B45D-FEC018B4750F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E72D5A9-9070-4227-B45D-FEC018B4750F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B065DB86-7C5D-4C9B-BC88-AE1230DEE2BC} = {CDEDF8E9-65E5-41E5-8772-0D6ADFD12E86}
+		{27BF79A6-8FF6-42CA-BD9B-C8148D0F9AFF} = {CDEDF8E9-65E5-41E5-8772-0D6ADFD12E86}
+		{821B2C59-0504-4AF3-A05E-5CFFCE20AE3B} = {CDEDF8E9-65E5-41E5-8772-0D6ADFD12E86}
+		{8E72D5A9-9070-4227-B45D-FEC018B4750F} = {CDEDF8E9-65E5-41E5-8772-0D6ADFD12E86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {389ECEE8-685F-4E6A-8CE0-DFE7F0046A42}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ea2fe3cf-a650-4b5e-9e7f-f7661e10a539</UserSecretsId>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\MeetupAbril.Web\MeetupAbril.Web.csproj" />
+    <ProjectReference Include="..\MeetupAbril.Api\MeetupAbril.Api.csproj" />
+  </ItemGroup>
+</Project>

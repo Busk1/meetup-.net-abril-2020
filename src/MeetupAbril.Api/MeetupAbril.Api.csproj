@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="$(HellangMiddlewareProblemDetails)" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="$(MicrosoftApplicationInsightsAspNetCore)" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="$(MicrosoftAspNetCoreMvcNewtonsoftJson)" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="$(MicrosoftAspNetCoreMvcVersioning)" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="$(MicrosoftAspNetCoreResponseCompression)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  
+  <ItemGroup>
+    <ProjectReference Include="..\MeetupAbril.Db\MeetupAbril.Db.csproj" />
+  </ItemGroup>
+</Project>
